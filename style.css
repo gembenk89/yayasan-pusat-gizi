@@ -41,7 +41,44 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+/* Dropdown Menu SPPG */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
 
+.dropbtn {
+  background: #004080;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #004080;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 /* Pesan Maintenance */
 .message {
   max-width: 600px;

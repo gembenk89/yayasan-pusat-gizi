@@ -1,3 +1,4 @@
+/* Umum */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -5,6 +6,7 @@ body {
   color: #333;
 }
 
+/* Header */
 header {
   background: #1e90ff;
   color: white;
@@ -22,6 +24,7 @@ header {
   height: 60px;
 }
 
+/* Navigasi */
 nav {
   background: #004080;
   text-align: center;
@@ -35,9 +38,19 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Pesan Maintenance */
 .message {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   text-align: center;
-  margin: 40px;
 }
 
 .button {
@@ -47,8 +60,14 @@ nav a {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  margin-top: 15px;
 }
 
+.button:hover {
+  background: #0056b3;
+}
+
+/* Sosial Media */
 .social {
   text-align: center;
   margin-top: 30px;
@@ -59,6 +78,7 @@ nav a {
   margin: 0 10px;
 }
 
+/* Footer */
 footer {
   background: #004080;
   color: white;

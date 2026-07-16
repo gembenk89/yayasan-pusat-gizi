@@ -126,3 +126,35 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* Sambutan */
+.sambutan {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Visi Misi */
+.visi-misi {
+  max-width: 800px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.visi-misi h2 {
+  color: #004080;
+}
+
+/* Foto Yayasan */
+.foto-yayasan {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.foto-yayasan img.foto {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}

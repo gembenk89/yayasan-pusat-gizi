@@ -8,14 +8,24 @@ body {
 header {
   background: #1e90ff;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 15px 40px;
 }
 
-header img {
-  height: 50px;
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav {
+  background: #004080;
+  text-align: center;
+  padding: 10px;
 }
 
 nav a {
@@ -23,6 +33,30 @@ nav a {
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
+}
+
+.message {
+  text-align: center;
+  margin: 40px;
+}
+
+.button {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social img {
+  width: 30px;
+  margin: 0 10px;
 }
 
 footer {
